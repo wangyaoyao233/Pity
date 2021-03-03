@@ -1,0 +1,108 @@
+﻿map06
+ground -8 -1 -6
+ground -6 -1 -6
+ground -4 -1 -6
+ground -2 -1 -6
+ground 0 -1 -6
+ground 2 -1 -6
+ground 4 -1 -6
+ground 6 -1 -6
+ground 8 -1 -6
+
+ground -8 -1 -4
+ground -6 -1 -4
+ground -4 -1 -4
+ground -2 -1 -4
+ground 0 -1 -4
+ground 2 -1 -4
+ground 4 -1 -4
+ground 6 -1 -4
+ground 8 -1 -4
+
+ground -8 -1 -2
+ground -6 -1 -2
+ground -4 -1 -2
+ground -2 -1 -2
+ground 0 -1 -2
+ground 2 -1 -2
+ground 4 -1 -2
+ground 6 -1 -2
+ground 8 -1 -2
+
+ground -8 -1 -0
+ground -6 -1 -0
+ground -4 -1 -0
+ground -2 -1 -0
+ground 0 -1 -0
+ground 2 -1 -0
+ground 4 -1 -0
+ground 6 -1 -0
+ground 8 -1 -0
+
+ground -8 -1 2
+ground -6 -1 2
+ground -4 -1 2
+ground -2 -1 2
+ground 0 -1 2
+ground 2 -1 2
+ground 4 -1 2
+ground 6 -1 2
+ground 8 -1 2
+
+ground -8 -1 4
+ground -6 -1 4
+ground -4 -1 4
+ground -2 -1 4
+ground 0 -1 4
+ground 2 -1 4
+ground 4 -1 4
+ground 6 -1 4
+ground 8 -1 4
+
+ground -8 -1 6
+ground -6 -1 6
+ground -4 -1 6
+ground -2 -1 6
+ground 0 -1 6
+ground 2 -1 6
+ground 4 -1 6
+ground 6 -1 6
+ground 8 -1 6
+
+ground -8 -1 8
+ground -6 -1 8
+ground -4 -1 8
+ground -2 -1 8
+ground 0 -1 8
+ground 2 -1 8
+ground 4 -1 8
+ground 6 -1 8
+ground 8 -1 8
+
+ground -8 -1 10
+ground -6 -1 10
+ground -4 -1 10
+ground -2 -1 10
+ground 0 -1 10
+ground 2 -1 10
+ground 4 -1 10
+ground 6 -1 10
+ground 8 -1 10
+
+ground -8 -1 12
+ground -6 -1 12
+ground -4 -1 12
+ground -2 -1 12
+ground 0 -1 12
+ground 2 -1 12
+ground 4 -1 12
+ground 6 -1 12
+ground 8 -1 12
+
+cube -6 1 4
+cube 7 1 8
+
+enemy 0 1 7 3.92 5.5
+enemy -4 1 10 3.92 5.5
+
+goal -4 1 -4

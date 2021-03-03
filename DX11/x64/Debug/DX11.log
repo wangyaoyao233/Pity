@@ -1,0 +1,4 @@
+﻿  Game08.cpp
+C:\Users\Master\Desktop\0821\DX11\Game08.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Users\Master\Desktop\0821\DX11\Audio.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  DX11.vcxproj -> C:\Users\Master\Desktop\0821\x64\Debug\DX11.exe

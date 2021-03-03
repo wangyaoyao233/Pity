@@ -1,0 +1,52 @@
+﻿map1
+ground 0 -1 -2
+ground 0 -1 -4
+ground 0 -1 -6
+ground 0 -1 -8
+ground 0 -1 0
+ground 0 -1 2
+ground 0 -1 4
+ground 0 -1 6
+ground 0 -1 8
+
+ground 2 -1 -2
+ground 2 -1 -4
+ground 2 -1 -6
+ground 2 -1 -8
+ground 2 -1 0
+ground 2 -1 2
+ground 2 -1 4
+ground 2 -1 6
+ground 2 -1 8
+
+ground 4 -1 -2
+ground 4 -1 -4
+ground 4 -1 -6
+ground 4 -1 -8
+ground 4 -1 0
+ground 4 -1 2
+ground 4 -1 4
+ground 4 -1 6
+ground 4 -1 8
+
+ground -2 -1 -2
+ground -2 -1 -4
+ground -2 -1 -6
+ground -2 -1 -8
+ground -2 -1 0
+ground -2 -1 2
+ground -2 -1 4
+ground -2 -1 6
+ground -2 -1 8
+	   
+ground -4 -1 -2
+ground -4 -1 -4
+ground -4 -1 -6
+ground -4 -1 -8
+ground -4 -1 0
+ground -4 -1 2
+ground -4 -1 4
+ground -4 -1 6
+ground -4 -1 8
+
+goal 2 1 8

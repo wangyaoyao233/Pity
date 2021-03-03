@@ -1,0 +1,24 @@
+﻿  Boss01.cpp
+C:\Users\Master\Desktop\0821\DX11\Boss01.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Users\Master\Desktop\0821\DX11\Audio.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Game08.cpp
+C:\Users\Master\Desktop\0821\DX11\Game08.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Users\Master\Desktop\0821\DX11\Audio.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  HPTexture.cpp
+  NumberTexture.cpp
+C:\Users\Master\Desktop\0821\DX11\NumberTexture.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Users\Master\Desktop\0821\DX11\NumberTexture.cpp(138,41): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Master\Desktop\0821\DX11\NumberTexture.cpp(143,41): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Master\Desktop\0821\DX11\NumberTexture.cpp(148,41): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Master\Desktop\0821\DX11\NumberTexture.cpp(153,41): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+  Result.cpp
+C:\Users\Master\Desktop\0821\DX11\Result.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Users\Master\Desktop\0821\DX11\Audio.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Title.cpp
+C:\Users\Master\Desktop\0821\DX11\Audio.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Generating code
+  19 of 1504 functions ( 1.3%) were compiled, the rest were copied from previous compilation.
+    12 functions were new in current compilation
+    51 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DX11.vcxproj -> C:\Users\Master\Desktop\0821\x64\Release\DX11.exe

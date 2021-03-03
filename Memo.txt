@@ -1,0 +1,189 @@
+Author: wym
+Description: memo
+
+/*system header*/
+#include "main.h"
+#include "manager.h"
+#include "renderer.h"
+/*tools header*/
+#include "GameTimer.h"
+#include "Mathf.h"
+/*scenes header*/
+
+/*gameobjects header*/
+
+/*self header*/
+
+
+2020.06.04
+1.创建DX11LTS工程, 长期支持. 学习dx11.
+2.添加GameTimer类
+3.改用DirectXMath.h类计算
+
+4.添加Polygon类
+5.添加Field类
+6.添加Camera类
+
+2020.6.5
+1.更改Polygon类的移动, 旋转实现
+2.Polygon类添加	void Translate(float x, float y, float z = 0);
+3.Polygon类添加	void Rotate(float angle);//todo: anchor
+
+2020.6.5
+1.新建Sprite类, 区分Sprite和Polygon功能, 一个是动态, 一个是静态
+2.Sprite继承自Polygon
+3.Polygon相关功能移至Sprite
+
+2020.6.5
+1.Field类, 通过world矩阵, 实现位移, 缩放, 旋转.
+2.	XMVECTOR d = XMLoadFloat3(&m_Scale);		//XMFLOAT3  -> XMVECTOR
+		d += XMVectorSet(0.1f, 0.1f, 0.1f, 0.0f);	//设置XMVECTOR值
+		XMStoreFloat3(&m_Scale, d);					//XMVECTOR -> XMFLOAT3
+
+3.新建窗口输出
+/*
+ShowWindow(GetWindow(), SW_SHOW);
+UpdateWindow(GetWindow());
+AllocConsole();
+freopen("CONOUT$", "w", stdout);
+printf("%f\n", m_Position.x);
+*/
+
+2020.6.6
+1.添加CPolygonAnimation类, 实现2d图片的动画功能
+2.CPloygonAnimation类添加SetUV函数
+3.CPloygonAnimation类重载Update方法
+
+2020.6.10
+1.Polygon类的Draw函数, 添加 set matrial
+2.Manager, 添加 light
+3.Model类读取3d模型
+
+2020.6.15
+1.添加CGameObject类, 作为基类
+
+6.23
+1.添加CEnemy类,继承自CGameObject类, 使用3d model.
+2.添加CBullet类,继承自CGameObject类, 使用3d model.
+3. manager类, 使用std::list<CGameObject*> enemies 和std::list<CGameObject*> bullets;
+
+
+6.24
+1.创建CScene类
+2.将CManager的GameObject移入CScene
+3.使用模板, 简化初始化
+4.Init, Update, Draw, Unint,尽量统一
+5.CGameObject类中 添加, Getter, Setter
+
+6.26
+1.CManager 使用静态变量, m_Scene
+
+6.27
+1.使用鼠标类
+2.在main.cpp中实例化一个鼠标单例类, 并添加对应的事件响应
+3.在manager.cpp中, 初始化鼠标类
+4.在player中, 使用鼠标信息
+
+6.29
+1.修改Cbullet中, model为static, 减少加载占用内存
+2.CGameObject类中, 添加Destroy , Uninit并delete this
+3.CScene的Update中, 添加 remove_if, 从list中移除, 并删除
+4.添加CEffect类, 实现特效
+
+7.1
+1.第一人称相机设计完成
+2.CGameObject类添加 m_layer,设置图层
+3.鼠标移动控制镜头
+4.右键变化projection
+
+
+7.2
+1.skybox完成
+2.billboard完成, 2种方法: 
+求出相机view矩阵的逆矩阵, 然后去除旋转变化即可. 
+正交矩阵的逆矩阵 = 其转置矩阵
+
+7.3
+1.skybox关闭光线
+
+7.6
+1.scene类中, m_GameObject[LAYERNUM], 分别给与不同层次
+2.对应修改 AddGameObject, GetGameObject参数
+3.使用XAudio2, 实现声音的重复播放, 一次播放, 多次播放
+
+
+7.9
+1. 添加一堆imgui文件
+2. imgui测试成功
+
+
+7.12
+1.将GameTimer类改为静态函数, 使得游戏全局可获取值
+2.将速度改为与GameTimer::DeltaTime()相关, 使运动平滑进行
+3.优化第一人称相机的旋转
+
+BUG:
+1.爆炸之后内存暴增 OK
+
+7.13
+1.Bullet类, Explosion类, 资源读取改为static, 减少读取消耗
+2.增加blend, 加算合成
+3.优化子弹Update中方向一直跟随镜头问题
+
+7.15
+1.加算合成, ok
+2.修改PolygonAnimation类
+3.Polygon类, 改为静态Texture
+4.Polygon类, 使用2张Texture, 分别为2种瞄准镜UI
+5.添加Line类, 实现2个点之间的连线
+6.在cube类中, 添加成员 m_Line,使得每个cube有 一个line,可以连接玩家和自己
+7.在Bullet类中, 如果与敌人碰撞, 则使被碰撞的敌人与玩家连线
+8.在玩家类中, 按F键, 则玩家和连着线的cube 交换位置
+9.创建Mathf类, Random, Lerp
+
+7.16
+1.添加一个2D视角, 按Q键切换, JKLI可移动2D镜头
+2.瞄准镜切换, 改为Lerp平滑进行
+
+7.20
+1. 使用四元数进行旋转变换
+2. 四元数与欧拉角与旋转矩阵的相互转化相关函数
+
+7.27
+1. 画面迁移
+2. 增加CTitle,CGame,CResult,继承自CScene 
+
+8.14
+1. 添加地面Cube, CGroundCube
+2. 添加地图读取工具类, CReadMap
+
+8.15
+1. 添加1,2,3指引关卡
+2. 添加4关卡
+3. 修改CPolygon类的实现, 使用SetFile方法
+4. 第三视角的修改, 现在是跟随镜头
+
+8.16
+1. 实现FadeEffect
+
+8.17
+1. 添加敌人CEnemy
+2. 添加敌人子弹CEnemyBullet
+3. map中, enemy设置发射角度
+4. 修改CField类实现
+5. 添加关卡6
+6. 添加关卡7
+7. 添加CTitle
+
+8.18
+1. 成就系统: FirstPlay DefeatEnemy GoodJob AllClear
+2. 数字显示
+3. CBoss的设计
+4. CCollisionHelper实现方块间的碰撞
+
+8.21
+1.添加BGM
+2.添加音效
+3.修改CGoal bug
+4.CManager中添加m_Audio管理音频
+

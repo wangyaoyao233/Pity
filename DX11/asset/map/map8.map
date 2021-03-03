@@ -1,0 +1,183 @@
+﻿map08
+
+ground -8 -1 -12
+ground -6 -1 -12
+ground -4 -1 -12
+ground -2 -1 -12
+ground 0 -1 -12
+ground 2 -1 -12
+ground 4 -1 -12
+ground 6 -1 -12
+ground 8 -1 -12
+
+ground -8 -1 -10
+ground -6 -1 -10
+ground -4 -1 -10
+ground -2 -1 -10
+ground 0 -1 -10
+ground 2 -1 -10
+ground 4 -1 -10
+ground 6 -1 -10
+ground 8 -1 -10
+
+ground -8 -1 -8
+ground -6 -1 -8
+ground -4 -1 -8
+ground -2 -1 -8
+ground 0 -1 -8
+ground 2 -1 -8
+ground 4 -1 -8
+ground 6 -1 -8
+ground 8 -1 -8
+
+ground -8 -1 -6
+ground -6 -1 -6
+ground -4 -1 -6
+ground -2 -1 -6
+ground 0 -1 -6
+ground 2 -1 -6
+ground 4 -1 -6
+ground 6 -1 -6
+ground 8 -1 -6
+
+ground -8 -1 -4
+ground -6 -1 -4
+ground -4 -1 -4
+ground -2 -1 -4
+ground 0 -1 -4
+ground 2 -1 -4
+ground 4 -1 -4
+ground 6 -1 -4
+ground 8 -1 -4
+
+ground -8 -1 -2
+ground -6 -1 -2
+ground -4 -1 -2
+ground -2 -1 -2
+ground 0 -1 -2
+ground 2 -1 -2
+ground 4 -1 -2
+ground 6 -1 -2
+ground 8 -1 -2
+
+ground -8 -1 -0
+ground -6 -1 -0
+ground -4 -1 -0
+ground -2 -1 -0
+ground 0 -1 -0
+ground 2 -1 -0
+ground 4 -1 -0
+ground 6 -1 -0
+ground 8 -1 -0
+
+ground -8 -1 2
+ground -6 -1 2
+ground -4 -1 2
+ground -2 -1 2
+ground 0 -1 2
+ground 2 -1 2
+ground 4 -1 2
+ground 6 -1 2
+ground 8 -1 2
+
+ground -8 -1 4
+ground -6 -1 4
+ground -4 -1 4
+ground -2 -1 4
+ground 0 -1 4
+ground 2 -1 4
+ground 4 -1 4
+ground 6 -1 4
+ground 8 -1 4
+
+ground -8 -1 6
+ground -6 -1 6
+ground -4 -1 6
+ground -2 -1 6
+ground 0 -1 6
+ground 2 -1 6
+ground 4 -1 6
+ground 6 -1 6
+ground 8 -1 6
+
+ground -8 -1 8
+ground -6 -1 8
+ground -4 -1 8
+ground -2 -1 8
+ground 0 -1 8
+ground 2 -1 8
+ground 4 -1 8
+ground 6 -1 8
+ground 8 -1 8
+
+ground -8 -1 10
+ground -6 -1 10
+ground -4 -1 10
+ground -2 -1 10
+ground 0 -1 10
+ground 2 -1 10
+ground 4 -1 10
+ground 6 -1 10
+ground 8 -1 10
+
+ground -8 -1 12
+ground -6 -1 12
+ground -4 -1 12
+ground -2 -1 12
+ground 0 -1 12
+ground 2 -1 12
+ground 4 -1 12
+ground 6 -1 12
+ground 8 -1 12
+
+cube -14 3 -4
+
+ground -16 1 -6
+ground -18 1 -6
+ground -14 1 -6
+ground -16 1 -4
+ground -18 1 -4
+ground -14 1 -4
+ground -16 1 -8
+ground -18 1 -8
+ground -14 1 -8
+
+cube 14 3 -4
+
+ground 16 1 -6
+ground 18 1 -6
+ground 14 1 -6
+ground 16 1 -4
+ground 18 1 -4
+ground 14 1 -4
+ground 16 1 -8
+ground 18 1 -8
+ground 14 1 -8
+
+cube 2 3 18
+
+ground -2 1 22
+ground 0 1 22
+ground 2 1 22
+ground -2 1 18
+ground 0 1 18
+ground 2 1 18
+ground -2 1 20
+ground 0 1 20
+ground 2 1 20
+
+cube 2 3 -18
+
+ground -2 1 -22
+ground 0 1 -22
+ground 2 1 -22
+ground -2 1 -18
+ground 0 1 -18
+ground 2 1 -18
+ground -2 1 -20
+ground 0 1 -20
+ground 2 1 -20
+
+boss 2 2 0
+
+goal 2 1 0

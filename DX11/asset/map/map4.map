@@ -1,0 +1,29 @@
+﻿map04
+ground 0 -1 -6
+ground -2 -1 -6
+ground 2 -1 -6
+
+ground 0 -1 -4
+ground -2 -1 -4
+ground 2 -1 -4
+
+ground 0 3 2
+ground -2 3 2
+ground 2 3 2
+
+ground 0 3 4
+ground -2 3 4
+ground 2 3 4
+
+ground 8 7 2
+ground 10 7 2
+ground 12 7 2
+
+ground 8 7 4
+ground 10 7 4
+ground 12 7 4
+
+cube -2 5 2
+cube 12 9 4
+
+goal 12 9 2

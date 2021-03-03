@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonAnimation.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCamera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectWrite.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Input2.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundCube.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadMap.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game02.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game03.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game04.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCube.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game05.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeEffect.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game06.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game07.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AchievementEffect.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AchievementManager.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game08.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss01.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionHelper.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberTexture.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HPTexture.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonAnimation.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectWrite.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Input2.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundCube.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadMap.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game02.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game03.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game04.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCube.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game05.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeEffect.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game06.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game07.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AchievementManager.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AchievementEffect.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game08.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss01.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionHelper.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberTexture.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HPTexture.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="vertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="pixelShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{18ee6016-7bd2-4d16-91cb-4676baba7734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{e1dae4fd-4dc4-4c05-aa69-55bf45ce1e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{d8bb2f9d-c132-47e3-953d-5e9a85780b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{cf95fe3b-8caf-49c5-8048-ec86928b7bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{fb08a1af-71b6-455d-8fc9-6693f57c8e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{93484682-e09d-4a28-8c11-cd78087fbb3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Memo.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿map2
+ground 0 -1 -4
+ground -2 -1 -4
+ground 2 -1 -4
+
+ground 0 -1 -6
+ground -2 -1 -6
+ground 2 -1 -6
+
+ground 0 -1 -8
+ground -2 -1 -8
+ground 2 -1 -8
+
+ground 0 -1 4
+ground -2 -1 4
+ground 2 -1 4
+
+ground 0 -1 6
+ground -2 -1 6
+ground 2 -1 6
+
+ground 0 -1 8
+ground -2 -1 8
+ground 2 -1 8
+
+cube -1 1 5
+
+goal -1 1 8
